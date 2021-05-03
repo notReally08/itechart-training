@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'Architects Daughter';
-  src: url('ArchitectsDaughter-Regular.woff2') format('woff2'),
-      url('ArchitectsDaughter-Regular.woff') format('woff');
+  src: url('./fonts/ArchitectsDaughter-Regular.woff2') format('woff2'),
+      url('./fonts/ArchitectsDaughter-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('Roboto-Bold.woff2') format('woff2'),
-      url('Roboto-Bold.woff') format('woff');
-  font-weight: bold;
+  src: url('./fonts/Roboto-Regular.woff2') format('woff2'),
+      url('./fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
 }

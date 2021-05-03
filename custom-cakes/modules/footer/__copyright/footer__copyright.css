@@ -1,0 +1,7 @@
+.footer__copyright {
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 0 13px 0;
+  font-size: 16px;
+  border-top: 1px solid rgb(149, 149, 149);
+  color: rgb(184, 184, 184);
+}

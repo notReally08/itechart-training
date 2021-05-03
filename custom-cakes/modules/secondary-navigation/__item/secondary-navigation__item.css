@@ -1,0 +1,7 @@
+.secondary-navigation .secondary-navigation__item {
+  padding-bottom: 22px;
+}
+
+.secondary-navigation .secondary-navigation__item:last-child {
+  padding-bottom: 0;
+}

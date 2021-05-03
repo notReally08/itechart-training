@@ -1,0 +1,11 @@
+.secondary-navigation .secondary-navigation__link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.secondary-navigation .secondary-navigation__link:hover {
+  color: rgba(255, 255, 255, 0.884);
+  text-decoration: underline;
+}

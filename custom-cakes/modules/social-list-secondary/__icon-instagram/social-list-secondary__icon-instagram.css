@@ -1,0 +1,6 @@
+.social-list-secondary__icon-instagram {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("./../../../assets/icon-instagram-secondary.png") no-repeat;
+}
