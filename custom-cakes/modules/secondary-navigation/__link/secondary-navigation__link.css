@@ -1,6 +1,6 @@
 .secondary-navigation .secondary-navigation__link {
   font-family: 'Roboto', sans-serif;
-  font-size: 19px;
+  font-size: 14px;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -8,4 +8,11 @@
 .secondary-navigation .secondary-navigation__link:hover {
   color: rgba(255, 255, 255, 0.884);
   text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .secondary-navigation .secondary-navigation__link {
+    font-size: 12px;
+  }
+  
 }

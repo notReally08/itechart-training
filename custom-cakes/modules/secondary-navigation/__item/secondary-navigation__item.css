@@ -1,7 +1,24 @@
 .secondary-navigation .secondary-navigation__item {
-  padding-bottom: 22px;
+  margin-bottom: 15px;
 }
 
 .secondary-navigation .secondary-navigation__item:last-child {
-  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .secondary-navigation .secondary-navigation__item {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    /* padding: 40px 0; */
+  }
+
+  .secondary-navigation .secondary-navigation__item:first-child {
+    margin-left: 0;
+  }
+  
+  .secondary-navigation .secondary-navigation__item:last-child {
+    display: none;
+  }
 }

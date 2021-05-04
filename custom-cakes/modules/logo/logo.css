@@ -1,8 +1,13 @@
 .logo {
   font-family: 'Playfair Display', serif;
-  font-size: 37px;
-  line-height: 58px;
-
+  font-size: 28px;
   color: rgb(255, 255, 255);
+  letter-spacing: 2px;
   text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .logo {
+    font-size: 18px;
+  }
 }
