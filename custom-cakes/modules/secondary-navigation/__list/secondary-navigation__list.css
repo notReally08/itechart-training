@@ -5,5 +5,6 @@
   .secondary-navigation__list {
     display: flex;
     margin: 0;
+    padding: 37px 0;
   }
 }
