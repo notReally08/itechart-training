@@ -5,7 +5,7 @@
   background: url("./../../../assets/icon-instagram-secondary.png") no-repeat;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
   .social-list-secondary__icon-instagram {
     background: url("./../../../assets/icon-instagram-secondary-dark.png") no-repeat;
   }

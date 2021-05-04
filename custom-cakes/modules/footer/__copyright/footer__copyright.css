@@ -6,15 +6,16 @@
   letter-spacing: 1px;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .footer__copyright {
-    text-align: center;
+    width: 45%;
+    text-align: right;
     border-top: none;
     margin-right: 33px;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
   .footer__copyright {
     width: 100%;
     padding: 20px 0;

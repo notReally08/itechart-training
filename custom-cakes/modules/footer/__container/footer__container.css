@@ -11,7 +11,7 @@
   background-color: rgb(149, 149, 149);
 }
 
-@media (min-width: 320px) and (max-width: 768px){
+@media (min-width: 768px) and (max-width: 950px){
   .footer__container {
     width: 100%;
     display: flex;
@@ -31,7 +31,27 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) and (max-width: 1200px){
+  .footer__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+
+  .footer__container::after {
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 1px;
+    bottom: 50px;
+    background-color: rgb(149, 149, 149);
+  }
+}
+
+@media (min-width: 1200px) {
   .footer__container {
     display: flex;
     flex-wrap: wrap;

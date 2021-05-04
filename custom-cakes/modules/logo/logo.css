@@ -6,13 +6,19 @@
   text-decoration: none;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 950px) {
   .logo {
     font-size: 18px;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) and (max-width: 1200px) {
+  .secondary-navigation .secondary-navigation__link {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
   .logo {
     color: rgb(45, 40, 41);
     font-size: 28px;

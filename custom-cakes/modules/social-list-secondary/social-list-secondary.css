@@ -4,15 +4,16 @@
   margin-bottom: 31px;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .social-list-secondary {
+    width: 45%;
     margin-bottom: 0;
     order: 1;
     padding: 14px 0;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
   .social-list-secondary {
     margin-bottom: 0;
   }
