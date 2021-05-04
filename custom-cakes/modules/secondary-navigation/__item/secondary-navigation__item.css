@@ -17,3 +17,19 @@
     display: none;
   }
 }
+
+@media (min-width: 769px) {
+  .secondary-navigation .secondary-navigation__item {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 52px;
+  }
+
+  .secondary-navigation .secondary-navigation__item:first-child {
+    margin-left: 0;
+  }
+  
+  .secondary-navigation .secondary-navigation__item:last-child {
+    display: none;
+  }
+}

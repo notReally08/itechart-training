@@ -4,3 +4,9 @@
   height: 23px;
   background: url("./../../../assets/icon-instagram-secondary.png") no-repeat;
 }
+
+@media (min-width: 769px) {
+  .social-list-secondary__icon-instagram {
+    background: url("./../../../assets/icon-instagram-secondary-dark.png") no-repeat;
+  }
+}

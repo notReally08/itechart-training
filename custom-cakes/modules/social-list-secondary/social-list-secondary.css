@@ -11,3 +11,9 @@
     padding: 14px 0;
   }
 }
+
+@media (min-width: 769px) {
+  .social-list-secondary {
+    margin-bottom: 0;
+  }
+}

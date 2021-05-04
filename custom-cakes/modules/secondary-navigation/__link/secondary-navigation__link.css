@@ -10,9 +10,19 @@
   text-decoration: underline;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .secondary-navigation .secondary-navigation__link {
     font-size: 12px;
   }
-  
+}
+
+@media (min-width: 769px) {
+  .secondary-navigation .secondary-navigation__link {
+    font-size: 15px;
+    color: rgb(45, 40, 41);
+  }
+    
+  .secondary-navigation .secondary-navigation__link:hover {
+    color: rgba(45, 40, 41, 0.568);
+  }
 }

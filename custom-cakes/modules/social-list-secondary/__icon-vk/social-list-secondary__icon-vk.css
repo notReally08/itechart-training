@@ -4,3 +4,9 @@
   height: 19px;
   background: url("./../../../assets/icon-vk-secondary.png") no-repeat;
 }
+
+@media (min-width: 769px) {
+  .social-list-secondary__icon-vk {
+    background: url("./../../../assets/icon-vk-secondary-dark.png") no-repeat;
+  }
+}

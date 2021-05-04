@@ -11,3 +11,10 @@
     font-size: 18px;
   }
 }
+
+@media (min-width: 769px) {
+  .logo {
+    color: rgb(45, 40, 41);
+    font-size: 28px;
+  }
+}

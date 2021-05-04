@@ -1,9 +1,9 @@
 .container {
-  width: 88%;
+  width: 90%;
   margin: 0 auto;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .container {
     width: 94.8%;
   }
