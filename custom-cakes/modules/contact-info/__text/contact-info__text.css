@@ -1,0 +1,7 @@
+.contact-info__text {
+  margin-bottom: 18px;
+}
+
+.contact-info__text:last-child {
+  margin-bottom: 15px;
+}
