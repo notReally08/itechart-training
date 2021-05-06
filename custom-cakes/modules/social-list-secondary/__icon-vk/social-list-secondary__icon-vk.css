@@ -1,0 +1,12 @@
+.social-list-secondary__icon-vk {
+  display: inline-block;
+  width: 31px;
+  height: 19px;
+  background: url("./../../../assets/icon-vk-secondary.png") no-repeat;
+}
+
+@media (min-width: 1200px) {
+  .social-list-secondary__icon-vk {
+    background: url("./../../../assets/icon-vk-secondary-dark.png") no-repeat;
+  }
+}

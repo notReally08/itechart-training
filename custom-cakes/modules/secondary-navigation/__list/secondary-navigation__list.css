@@ -1,0 +1,18 @@
+.secondary-navigation__list {
+  margin: 25px 0 30px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .secondary-navigation__list {
+    display: flex;
+    margin: 0;
+    padding: 37px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .secondary-navigation__list {
+    display: flex;
+    margin: 0;
+  }
+}

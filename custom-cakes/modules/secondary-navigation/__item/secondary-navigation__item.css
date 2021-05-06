@@ -1,0 +1,35 @@
+.secondary-navigation .secondary-navigation__item {
+  margin-bottom: 16px;
+}
+
+.secondary-navigation .secondary-navigation__item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .secondary-navigation .secondary-navigation__item {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 39px;
+  }
+  
+  .secondary-navigation .secondary-navigation__item:last-child {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .secondary-navigation .secondary-navigation__item {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 44px;
+  }
+
+  .secondary-navigation .secondary-navigation__item:first-child {
+    margin-left: 0;
+  }
+  
+  .secondary-navigation .secondary-navigation__item:last-child {
+    display: none;
+  }
+}

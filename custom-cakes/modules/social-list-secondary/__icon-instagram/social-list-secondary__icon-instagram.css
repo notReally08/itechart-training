@@ -1,0 +1,12 @@
+.social-list-secondary__icon-instagram {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("./../../../assets/icon-instagram-secondary.png") no-repeat;
+}
+
+@media (min-width: 1200px) {
+  .social-list-secondary__icon-instagram {
+    background: url("./../../../assets/icon-instagram-secondary-dark.png") no-repeat;
+  }
+}

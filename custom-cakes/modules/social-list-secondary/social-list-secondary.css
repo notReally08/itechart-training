@@ -1,0 +1,20 @@
+.social-list-secondary {
+  display: flex;
+  align-items: center;
+  margin-bottom: 31px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .social-list-secondary {
+    margin-bottom: 0;
+    order: 1;
+    padding: 14px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .social-list-secondary {
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+}
