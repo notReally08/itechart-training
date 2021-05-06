@@ -4,6 +4,7 @@
   color: rgb(255, 255, 255);
   letter-spacing: 2px;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 768px) and (max-width: 950px) {
@@ -22,5 +23,6 @@
   .logo {
     color: rgb(45, 40, 41);
     font-size: 28px;
+    margin: 0 0 8px 4px;
   }
 }

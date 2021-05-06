@@ -1,9 +1,31 @@
-@media (min-width: 768px) and (max-width: 1200px) {
+.footer__top {
+  position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
   .footer__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 37px 0 40px 0px;
+    padding-right: 13px;
   }
 }
 
+/* @media (min-width: 950px) and (max-width: 1200px){
+  .footer__top {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+} */
+
+@media (min-width: 1200px) {
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

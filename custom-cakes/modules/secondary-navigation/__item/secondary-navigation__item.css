@@ -1,5 +1,5 @@
 .secondary-navigation .secondary-navigation__item {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .secondary-navigation .secondary-navigation__item:last-child {
@@ -10,7 +10,7 @@
   .secondary-navigation .secondary-navigation__item {
     margin-right: 0;
     margin-bottom: 0;
-    margin-left: 40px;
+    margin-left: 39px;
   }
   
   .secondary-navigation .secondary-navigation__item:last-child {
@@ -22,7 +22,7 @@
   .secondary-navigation .secondary-navigation__item {
     margin-right: 0;
     margin-bottom: 0;
-    margin-left: 52px;
+    margin-left: 44px;
   }
 
   .secondary-navigation .secondary-navigation__item:first-child {
