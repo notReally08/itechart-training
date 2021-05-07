@@ -1,0 +1,12 @@
+.contact-us__inner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .contact-us__inner-container {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 87.6%;
+  }
+}
