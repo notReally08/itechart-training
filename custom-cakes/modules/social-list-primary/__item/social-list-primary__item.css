@@ -1,0 +1,7 @@
+.social-list-primary__item {
+  margin-right: 30px;
+}
+
+.social-list-primary__item:last-child {
+  margin-right: 0;
+}

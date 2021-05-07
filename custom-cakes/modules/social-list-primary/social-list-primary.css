@@ -1,0 +1,19 @@
+.social-list-primary {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .social-list-primary {
+    width: 45%;
+    margin-bottom: 0;
+    order: 1;
+    padding: 14px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .social-list-primary {
+    margin-bottom: 0;
+  }
+}

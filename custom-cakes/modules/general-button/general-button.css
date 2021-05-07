@@ -1,0 +1,15 @@
+.general-button {
+  margin: 0 auto;
+  padding: 15px 42px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  display: block;
+  border: none;
+  color: rgb(254, 254, 254);
+  background-color: rgb(245, 0, 73);
+  border-radius: 30px;
+}
+
+.general-button:active {
+  background-color: rgb(206, 3, 64);
+}

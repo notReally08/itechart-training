@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./common/fonts.css">
 
   <link rel="stylesheet" href="./modules/container/container.css">
+  <link rel="stylesheet" href="./modules/common-text/common-text.css">
+  <link rel="stylesheet" href="./modules/common-text/_primary/common-text_primary.css">
   <link rel="stylesheet" href="./modules/logo/logo.css">
   <link rel="stylesheet" href="./modules/secondary-navigation/secondary-navigation.css">
   <link rel="stylesheet" href="./modules/secondary-navigation/__list/secondary-navigation__list.css">
@@ -19,14 +21,71 @@
   <link rel="stylesheet" href="./modules/social-list-secondary/__item/social-list-secondary__item.css">
   <link rel="stylesheet" href="./modules/social-list-secondary/__icon-instagram/social-list-secondary__icon-instagram.css">
   <link rel="stylesheet" href="./modules/social-list-secondary/__icon-vk/social-list-secondary__icon-vk.css">
+  <link rel="stylesheet" href="./modules/social-list-primary/social-list-primary.css">
+  <link rel="stylesheet" href="./modules/social-list-primary/__item/social-list-primary__item.css">
+  <link rel="stylesheet" href="./modules/social-list-primary/__icon-vk/social-list-primary__icon-vk.css">
+  <link rel="stylesheet" href="./modules/social-list-primary/__icon-instagram/social-list-primary__icon-instagram.css">
+  <link rel="stylesheet" href="./modules/section-title/section-title.css">
+  <link rel="stylesheet" href="./modules/section-subtitle/section-subtitle.css">
+  <link rel="stylesheet" href="./modules/general-button/general-button.css">
 
   <link rel="stylesheet" href="./modules/footer/footer.css">
   <link rel="stylesheet" href="./modules/footer/__top/footer__top.css">
   <link rel="stylesheet" href="./modules/footer/__bottom/footer__bottom.css">
   <link rel="stylesheet" href="./modules/footer/__copyright/footer__copyright.css">
+
+  <link rel="stylesheet" href="./modules/contact-us/contact-us.css">
+  <link rel="stylesheet" href="./modules/contact-us/__container/contact-us__container.css">
+  <link rel="stylesheet" href="./modules/contact-us/__title/contact-us__title.css">
+  <link rel="stylesheet" href="./modules/contact-us/__subtitle/contact-us__subtitle.css">
+
+  <link rel="stylesheet" href="./modules/contact-form/contact-form.css">
+  <link rel="stylesheet" href="./modules/contact-form/__input/contact-form__input.css">
+  <link rel="stylesheet" href="./modules/contact-form/__textarea/contact-us__textarea.css">
+  <link rel="stylesheet" href="./modules/contact-info/contact-info.css">
+  <link rel="stylesheet" href="./modules/contact-info/__text/contact-info__text.css">
+  <link rel="stylesheet" href="./modules/contact-info/__link/contact-info__link.css">
+  <link rel="stylesheet" href="./modules/contact-info/__link/_mail/contact-info__link_mail.css">
   <title>Cakes</title>
 </head>
 <body>
+  <section class="contact-us">
+    <div class="container">
+      <h2 class="section-title contact-us__title">
+        Контакты
+      </h2>
+      <p class="section-subtitle contact-us__subtitle">
+        Остались вопросы?
+      </p>
+      <p class="common-text contact-us__common-text">
+        Заполните форму ниже и наш кондитер свяжется с Вами
+      </p>
+      <form action="#" class="contact-form" aria-label="Задайте интересующий Вас вопрос">
+        <input type="text" class="contact-form__input" placeholder="Ваше имя">
+        <input type="text" class="contact-form__input" placeholder="Email адрес">
+        <textarea name="question" cols="30" rows="10" class="contact-form__textarea" placeholder="Ваш вопрос"></textarea>
+        <input type="submit" class="general-button" value="Отправить">
+      </form>
+      <address class="contact-info">
+        <p class="contact-info__text common-text">
+          Или позвоните по телефону:
+          <a href="tel:+79068999296" class="contact-info__link">+7 906 899 92 96</a>
+        </p>
+        <p class="contact-info__text common-text">
+          Наша почта :<a href="mailto:bakerybypavel@mail.ru" class="contact-info__link contact-info__link_mail"> bakerybypavel@mail.ru</a>
+        </p>
+        <p class="contact-info__text common-text">Мы в соц. сетях:</p>
+      </address>
+      <ul class="social-list-primary">
+        <li class="social-list-primary__item">
+          <a href="#" class="social-list-primary__icon-instagram"></a>
+        </li>
+        <li class="social-list-primary__item">
+          <a href="#" class="social-list-primary__icon-vk"></a>
+        </li>
+      </ul>
+    </div>
+  </section>
   <footer class="footer">
     <div class="container">
       <section class="footer__top">
