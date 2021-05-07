@@ -1,6 +1,11 @@
 .social-list-primary__icon-vk {
-  display: inline-block;
-  width: 63px;
-  height: 63px;
-  background: url("./../../../assets/icon-vk-primary.png") no-repeat;
+  text-decoration: none;
+}
+
+.social-list-primary__icon-vk::before {
+  font-size: 48px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(245, 0, 73);
+  border-radius: 50%;
+  padding: 7px;
 }
