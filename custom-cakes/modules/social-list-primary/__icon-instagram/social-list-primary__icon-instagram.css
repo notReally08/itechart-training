@@ -1,11 +1,21 @@
 .social-list-primary__icon-instagram {
+  width: 63px;
+  height: 63px;
   text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(245, 0, 73);
+  position: relative;
 }
 
 .social-list-primary__icon-instagram::before {
+  position: absolute;
   font-size: 32px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(245, 0, 73);
-  border-radius: 50%;
-  padding: 15px;
+  top: 16px;
+  left: 16px;
+}
+
+.social-list-primary__icon-instagram:hover {
+  box-shadow: 0px 2px 6px 4px rgba(245, 0, 73, 15%);
 }

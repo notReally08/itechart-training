@@ -6,6 +6,11 @@
 @media (min-width: 768px) {
   .contact-us__title {
     margin-bottom: 15px;
-    font-size: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-us__title {
+    margin-bottom: 37px;
   }
 }
