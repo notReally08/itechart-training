@@ -1,7 +1,14 @@
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .contact-us__submit-button {
     margin: 10px 0 0 0;
     font-size: 14px;
+    padding: 12px 46px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-us__submit-button {
+    margin: 60px 0 0 4px;
     padding: 12px 46px;
   }
 }

@@ -1,3 +1,9 @@
 .contact-us__common-text {
   max-width: 72%;
 }
+
+@media (min-width: 1200px) {
+  .contact-us__common-text {
+    max-width: 100%;
+  }
+}

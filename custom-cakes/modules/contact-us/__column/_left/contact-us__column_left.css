@@ -4,3 +4,9 @@
     align-items: flex-start;
   }
 }
+
+@media (min-width: 1200px) {
+  .contact-us__column_left {
+    width: 45.3%;
+  }
+}

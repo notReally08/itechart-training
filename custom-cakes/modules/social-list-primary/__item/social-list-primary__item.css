@@ -5,3 +5,9 @@
 .social-list-primary__item:last-child {
   margin-right: 0;
 }
+
+@media (min-width: 1200px) {
+  .contact-us .social-list-primary__item {
+    margin: 9px 30px 7px 0;
+  }
+}
