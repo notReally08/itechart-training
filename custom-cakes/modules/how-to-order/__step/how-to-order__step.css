@@ -1,0 +1,23 @@
+.how-to-order__step{
+  content: "";
+  font-family: "PlayfairDisplay-Bold", sans-serif;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 47px;
+}
+
+.how-to-order__step:last-child {
+  margin-bottom: 0;
+}
+
+.how-to-order__step::before {
+  content: "";
+  font-family: "PlayfairDisplay-Bold", sans-serif;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: -14px;
+  left: -31px;
+}
