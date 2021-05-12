@@ -2,3 +2,9 @@
   padding: 42px 0 50px 0;
   background-color: rgb(251, 235, 234);
 }
+
+@media (min-width: 768px) {
+  .contact-us {
+    padding: 42px 0 85px 0;
+  }
+}
