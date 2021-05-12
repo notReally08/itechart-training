@@ -1,6 +1,13 @@
 @media (min-width: 768px) {
   .contact-us__column_right {
     width: 40.5%;
-    margin-top: 80px;
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-us__column_right {
+    width: 49.5%;
+    padding-top: 128px;
   }
 }

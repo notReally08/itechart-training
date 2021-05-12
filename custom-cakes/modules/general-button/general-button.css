@@ -8,8 +8,14 @@
   color: rgb(254, 254, 254);
   background-color: rgb(245, 0, 73);
   border-radius: 30px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
 }
 
 .general-button:active {
   background-color: rgb(206, 3, 64);
+}
+
+.general-button:hover {
+  box-shadow: 0px 6px 6px 3px rgb(245 0 73 / 20%);
 }

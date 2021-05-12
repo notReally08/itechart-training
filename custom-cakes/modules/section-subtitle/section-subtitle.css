@@ -2,3 +2,9 @@
   font-family: 'Intro Script R H2 Base', sans-serif;
   font-size: 22px;
 }
+
+@media (min-width: 1200px) {
+  .section-subtitle {
+    font-size: 35px;
+  }
+}
