@@ -1,6 +1,24 @@
 .how-to-order__container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .how-to-order__container {
+    width: 48%;
+    margin: 0 72px 0 0;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1200px) {
+  .how-to-order__container {
+    width: 43%;
+    margin: 0;
+    align-items: flex-start;
+  }
 }

@@ -4,3 +4,9 @@
   color: rgb(255, 255, 255);
   margin-bottom: 8px;
 }
+
+@media (min-width: 1200px) {
+  .how-to-order__step-title {
+    font-size: 21px;
+  }
+}

@@ -21,3 +21,24 @@
   top: -14px;
   left: -31px;
 }
+
+@media (min-width: 1200px) {
+  .how-to-order__step::before {
+    font-size: 64px;
+    top: -21px;
+    left: -47px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .how-to-order__step {
+    margin-left: 33px;
+    margin-bottom: 29px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .how-to-order__step {
+    margin-bottom: 32px;
+  }
+}
