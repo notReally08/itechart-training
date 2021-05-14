@@ -1,0 +1,25 @@
+.how-to-order {
+  width: 100%;
+  padding: 32px 0 114px 0;
+  background: #e3353d;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .how-to-order {
+    background: rgb(203, 75, 80);
+    display: flex;
+    justify-content: flex-end;
+    padding: 48px 0 21px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .how-to-order {
+    background: rgb(203, 75, 80);
+    display: flex;
+    justify-content: flex-end;
+    padding: 120px 0 136px 0;
+  }
+}

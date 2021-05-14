@@ -1,0 +1,9 @@
+.how-to-order__steps-list {
+  padding: 37px 0 13px 0;
+}
+
+@media (min-width: 1200px) {
+  .how-to-order__steps-list {
+    padding: 44px 60px 13px 42px;
+  }
+}
