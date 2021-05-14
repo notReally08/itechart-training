@@ -8,28 +8,6 @@
   margin-left: 47px;
 }
 
-.how-to-order__step:last-child {
-  margin-bottom: 0;
-}
-
-.how-to-order__step::before {
-  content: "";
-  font-family: "PlayfairDisplay-Bold", sans-serif;
-  font-size: 35px;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  top: -14px;
-  left: -31px;
-}
-
-@media (min-width: 1200px) {
-  .how-to-order__step::before {
-    font-size: 64px;
-    top: -21px;
-    left: -47px;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 1200px) {
   .how-to-order__step {
     margin-left: 33px;
