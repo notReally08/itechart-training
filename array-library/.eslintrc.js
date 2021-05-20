@@ -10,6 +10,7 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-      "max-len": [1, 120, 2, {ignoreComments: true}]
+      "max-len": [1, 120, 2, {ignoreComments: false}],
+      "quotes": ["warn", "double"]
     }
 };
