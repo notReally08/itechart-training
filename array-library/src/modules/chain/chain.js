@@ -1,6 +1,3 @@
-/*eslint keyword-spacing: ["error", { "before": true }]*/
-/*eslint-env es6*/
-
 import { take } from "./../take/take";
 import { skip } from "./../skip/skip";
 import { filter } from "./../filter/filter";
