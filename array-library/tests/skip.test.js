@@ -1,17 +1,11 @@
 import { skip } from "./../src/modules/skip/skip";
 
-test("the error should be thrown; the second parameter must be the number", () => {
-  expect(() => skip([], true)).toThrow(Error);
-});
+describe("If we are using the skip method with the valid number of items to skip", () => {
+  it("returns an array with the last item when the number to skip is less by 1 than the length of the array", () => {
+    expect(skip([7, 2, 9, 34], 3)).toEqual([34]);
+  });
 
-test("the error should be thrown", () => {
-  expect(() => skip([7, 2, 9, 34], 5)).toThrow(Error);
-});
-
-test("should be equal to [34]", () => {
-  expect(skip([7, 2, 9, 34], 3)).toEqual([34]);
-});
-
-test("should be an empty array", () => {
-  expect(skip([7, 2, 9, 34], 4)).toEqual([]);
-});
+  it("returns an empty array when the number of items to skip is equal to the array length", () => {
+    expect(skip([7, 2, 9, 34], 4)).toEqual([]);
+  });
+})

@@ -1,29 +1,25 @@
 import { reduce } from "./../src/modules/reduce/reduce";
 
-test("the error should be thrown; the second parameter must be the function", () => {
-  expect(() => reduce("string", (a, b) => a + b)).toThrow(Error);
+describe("The reduce method should throw an error", () => { 
+  it("throws a new Error if the array to reduce is empty and no initialValue is was given", () => {
+    expect(() => reduce([], (a, b) => a + b)).toThrow(TypeError);
+  });
 });
 
-test("the error should be thrown; the second parameter must be the function", () => {
-  expect(() => reduce([1, 2, 3, 4], true)).toThrow(Error);
-});
+describe("If we use the reduce method with the valid parameters and callback that gives the sum of array items", () => {
+  it("returns number 3 with the array [1] and initial value 2", () => {
+    expect(reduce([1], (a, b) => a + b, 2)).toEqual(3);
+  });
 
-test("the error should be thrown; the second parameter must be the function", () => {
-  expect(() => reduce([], (a, b) => a + b)).toThrow(TypeError);
-});
+  it("returns number 1 with the array [1] and no initial value", () => {
+    expect(reduce([1], (a, b) => a + b)).toEqual(1);
+  });
 
-test("should be equal to 3", () => {
-  expect(reduce([1], (a, b) => a + b, 2)).toEqual(3);
-});
+  it("returns number 7 with the empty array and initial value 7", () => {
+    expect(reduce([], (a, b) => a + b, 7)).toEqual(7);
+  });
 
-test("should be equal to 1", () => {
-  expect(reduce([1], (a, b) => a + b)).toEqual(1);
-});
-
-test("should be equal to 7", () => {
-  expect(reduce([], (a, b) => a + b, 7)).toEqual(7);
-});
-
-test("should be equal to 10", () => {
-  expect(reduce([1, 2, 3, 4], (a, b) => a + b)).toEqual(10);
-});
+  it("returns number 10 with the array [1, 2, 3, 4] and no initial value", () => {
+    expect(reduce([1, 2, 3, 4], (a, b) => a + b)).toEqual(10);
+  });
+})
