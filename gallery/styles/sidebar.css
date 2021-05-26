@@ -1,0 +1,14 @@
+.sidebar {
+  width: 20%;
+  padding: 20px 0 0 0;
+}
+
+.sidebar__container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.sidebar__title {
+  font-size: 25px;
+  text-align: center;
+}
