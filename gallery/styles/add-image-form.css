@@ -10,7 +10,6 @@
   box-sizing: border-box;
   border: none;
   outline: rgb(65, 65, 65) solid 1px;
-  background-color: rgb(204, 204, 204);
 }
 
 .add-image-form__button {
@@ -22,4 +21,32 @@
   color: rgb(254, 254, 254);
   background-color: rgb(99, 99, 99);
   cursor: pointer;
+}
+
+.form-error {
+  display: none;
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  background-color: rgb(202, 94, 94);
+  padding: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.form-error_visibility_visible {
+  display: block;
+}
+
+.form-success {
+  display: none;
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  background-color: rgb(44, 168, 110);
+  padding: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.form-success_visibility_visible {
+  display: block;
 }
