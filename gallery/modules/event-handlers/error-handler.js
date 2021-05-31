@@ -8,7 +8,9 @@ var errorHandler = (function(){
       if (!errorElement.classList.contains("form-error_visibility_visible")) {
         errorElement.classList.add("form-error_visibility_visible");
       }
+
       errorElement.textContent = errorText;
+
       setTimeout(function() {
         if (errorElement.classList.contains("form-error_visibility_visible")) {
           errorElement.textContent = "";
