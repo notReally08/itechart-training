@@ -1,0 +1,13 @@
+.main {
+  background-color: rgb(243, 243, 243);
+  font-family: "Roboto", sans-serif;
+  padding: 50px 0 0 0;
+  box-sizing: border-box;
+}
+
+.main__container {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
