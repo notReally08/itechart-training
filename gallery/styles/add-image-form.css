@@ -1,0 +1,52 @@
+.add-image-form {
+  margin: 30px 0 0 0;
+}
+
+.add-image-form__input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: none;
+  outline: rgb(65, 65, 65) solid 1px;
+}
+
+.add-image-form__button {
+  margin: 0 auto;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  display: block;
+  border: none;
+  color: rgb(254, 254, 254);
+  background-color: rgb(99, 99, 99);
+  cursor: pointer;
+}
+
+.form-error {
+  display: none;
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  background-color: rgb(202, 94, 94);
+  padding: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.form-error_visibility_visible {
+  display: block;
+}
+
+.form-success {
+  display: none;
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  background-color: rgb(44, 168, 110);
+  padding: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.form-success_visibility_visible {
+  display: block;
+}

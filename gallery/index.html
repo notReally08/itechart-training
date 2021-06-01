@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./common/fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/gallery.css">
+  <link rel="stylesheet" href="./styles/sidebar.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/add-image-form.css">
+  <title>Document</title>
+</head>
+<body>
+  <main class="main">
+    <div class="main__container">
+      <aside class="sidebar">
+        <div class="sidebar__container">
+          <h3 class="sidebar__title">Add new post</h3>
+          <form action="#" class="add-image-form">
+            <input type="text" name="author" class="add-image-form__input add-image-form-author_js" placeholder="Author">
+            <input type="text" name="link" class="add-image-form__input add-image-form-link_js" placeholder="Link">
+            <input type="text" name="description" class="add-image-form__input add-image-form-description_js" placeholder="Description">
+            <input type="submit" class="add-image-form__button" value="Add post">
+            <span class="form-error form-error_js"></span>
+            <span class="form-success form-success_js"></span>
+          </form>
+        </div>
+        <button type="submit" class="sidebar__show-preview-button sidebar__show-preview-button_js">Show preview</button>
+        <div class="sidebar__image-preview sidebar__image-preview_js"></div>
+      </aside>
+      <section class="gallery">
+        <div class="gallery__container"></div>
+      </section>
+    </div>
+  </main>
+  
+  <script src="./modules/render/post-image-element.js"></script>
+  <script src="./modules/render/post-author-element.js"></script>
+  <script src="./modules/render/post-description-element.js"></script>
+  <script src="./modules/render/post-container-element.js"></script>
+  <script src="./modules/render/render-posts.js"></script>
+  <script src="./modules/event-handlers/success-handler.js"></script>
+  <script src="./modules/event-handlers/error-handler.js"></script>
+  <script src="./modules/handle-db/add-record.js"></script>
+  <script src="./modules/render/image-preview.js"></script>
+  <script src="./modules/handle-db/create-db.js"></script>
+  <script src="./modules/handle-db/load-and-render-posts.js"></script>
+  <script src="./modules/handle-db/"></script>
+  <script src="./modules/event-handlers/add-new-post.js"></script>
+  <script src="./modules/handle-form/form-validate.js"></script>
+  <script src="./modules/handle-form/get-form-fields.js"></script>
+  <script src="./modules/index.js"></script>
+</body>
+</html>
