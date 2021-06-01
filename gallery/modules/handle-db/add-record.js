@@ -7,11 +7,8 @@ var addRecord = (function () {
 
       openDBRequest.onsuccess = (event) => {
         var db = event.target.result;
-
         var transaction = db.transaction(store, mode);
-
         var records = transaction.objectStore(store);
-
         var addPostRequest = records.add(record);
 
         addPostRequest.onsuccess = function(event) {

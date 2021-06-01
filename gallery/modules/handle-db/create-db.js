@@ -1,7 +1,7 @@
 'use strict';
 
 var createDB = (function() {
-return {
+  return {
     newDB(name, store, keyPath, enableAutoIncrement = true) {
       var openRequest = indexedDB.open(name, 1);
 

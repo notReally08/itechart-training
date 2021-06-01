@@ -9,11 +9,8 @@ var loadAndRenderPosts = (function () {
 
       openRequest.onsuccess = function(event) {
         var db = event.target.result;
-
         var transaction = db.transaction(store);
-
         var records = transaction.objectStore(store);
-
         var getAllRecords = records.getAll()
 
         getAllRecords.onsuccess = function (event) {
@@ -29,11 +26,8 @@ var loadAndRenderPosts = (function () {
 
       openRequest.onsuccess = function(event) {
         var db = event.target.result;
-
         var transaction = db.transaction(store);
-
         var records = transaction.objectStore(store);
-
         var getRecord = records.get(index);
 
         getRecord.onsuccess = function (event) {

@@ -9,9 +9,7 @@ var renderPosts = (function () {
 
       for (var i = 0; i < posts.length; i++) {
         var postImageUrl = URL.createObjectURL(posts[i].url);
-
         var postAuthor = posts[i].author;
-
         var postDescription = posts[i].description;
 
         galleryContainer.append(postContainerElement.render(
@@ -23,9 +21,7 @@ var renderPosts = (function () {
     },
     renderOne(post) {
       var postImageUrl = URL.createObjectURL(post.url);
-
       var postAuthor = post.author;
-
       var postDescription = post.description;
 
       galleryContainer.append(postContainerElement.render(

@@ -2,9 +2,7 @@
 
 var imagePreview = (function () {
   var previewElement = document.querySelector(".sidebar__image-preview_js");
-
   var previewButton = document.querySelector(".sidebar__show-preview-button_js");
-
   var linkElement = document.querySelector(".add-image-form-link_js");
 
   return {
