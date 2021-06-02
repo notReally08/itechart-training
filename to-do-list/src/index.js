@@ -1,2 +1,5 @@
-let p = 3.14;
-console.log(p);
+import React from "react";
+import { render } from "react-dom";
+import { App } from "./App";
+
+render(<App />, document.getElementById("root"));
