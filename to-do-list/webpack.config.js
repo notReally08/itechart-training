@@ -14,7 +14,7 @@ module.exports = (env, argv) => {
       compress: true,
       port: 9000,
     },
-    mode: argv.mode === 'development' ? 'development' : 'production',
+    mode: "development",
     module: {
       rules: [
         {
@@ -23,6 +23,11 @@ module.exports = (env, argv) => {
           use: ["babel-loader"]
         }
       ]
+    },
+    resolve: {
+      alias: {
+        Redux: path.resolve(__dirname, './src/redux/'),
+      },
     },
     plugins: [
       new HtmlWebpackPlugin({

@@ -14,7 +14,8 @@ module.exports = {
     },
     "rules": {
         "max-len": [1, 120, 2, {ignoreComments: false}],
-        "quotes": ["warn", "double"]
+        "quotes": ["warn", "double"],
+        "react/prop-types": "off"
     },
     "settings": {
         "react": {
