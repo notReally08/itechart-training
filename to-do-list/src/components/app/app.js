@@ -1,6 +1,6 @@
 import React from "react";
-import { TaskListContainer } from "./../task-list-container/task-list-container";
-import { AddNewTaskForm } from "./../add-new-task-form/add-new-task-form"
+import { TaskListContainer } from "../task-list-container/TaskListContainer";
+import { AddNewTaskForm } from "../add-new-task-form/AddNewTaskForm"
 
 function App() {
   return (

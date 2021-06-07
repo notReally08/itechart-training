@@ -24,16 +24,11 @@ module.exports = (env, argv) => {
         }
       ]
     },
-    resolve: {
-      alias: {
-        Redux: path.resolve(__dirname, './src/redux/'),
-      },
-    },
     plugins: [
       new HtmlWebpackPlugin({
         template: 'src/index.html'
       }),
-
+      new ESLintPlugin()
     ],
   }
 }

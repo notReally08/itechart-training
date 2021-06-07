@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { TaskContainer } from "./../task-container/task-container";
+import { TaskContainer } from "../task-container/TaskContainer";
 
 export const TaskListContainer = () => {
   const tasks = useSelector((state) => state.taskList.tasks);
