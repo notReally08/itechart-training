@@ -1,1 +1,0 @@
-export const vallidate = value => !value.trim() ? "Required" : ""; 

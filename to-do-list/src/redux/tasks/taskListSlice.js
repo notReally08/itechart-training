@@ -1,11 +1,11 @@
 import { createSlice} from "@reduxjs/toolkit";
 import uuid from "uuid";
-import { defaultTasks } from "../initial-state";
+import { initialState } from "../initialState";
 import { addNewTask } from "./../actions/addNewTask.js";
  
 export const taskListSlice = createSlice({
   name: "taskList",
-  initialState: { tasks: defaultTasks },
+  initialState: { tasks: initialState },
   reducers: {},
   extraReducers: {
     [addNewTask.fulfilled]: (state, action) => {

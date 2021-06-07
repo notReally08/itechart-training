@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 import { useDispatch } from "react-redux";
 import { addNewTask } from "../../redux/actions/addNewTask";
 import { Formik, Field, Form } from "formik";
-import { vallidate } from "../../features/validation/vallidate";
+import { vallidate } from "../../features/validation/validate";
 
 export const AddNewTaskForm = () => {
   const dispatch = useDispatch();

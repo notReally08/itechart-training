@@ -1,4 +1,4 @@
-export const defaultTasks = [
+export const initialState = [
   {
     id: 1,
     text: "Go for a walk",
