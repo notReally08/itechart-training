@@ -4,6 +4,6 @@ import { api} from "../../db/api";
 export const addNewTask = createAsyncThunk(
   "taskList/addNewTask",
   task => {
-    return api(task).addTask();
+    return api().addTask(task);
   }
 );

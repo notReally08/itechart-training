@@ -1,9 +1,9 @@
-export const api = data => {
+export const api = () => {
   return {
-    addTask() {
+    addTask(data) {
       return new Promise(resolve => {
         setTimeout(() => resolve(data), 4000);
-      })
+      });
     }
   }
 }
