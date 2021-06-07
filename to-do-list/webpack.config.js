@@ -14,7 +14,7 @@ module.exports = (env, argv) => {
       compress: true,
       port: 9000,
     },
-    mode: argv.mode === 'development' ? 'development' : 'production',
+    mode: "development",
     module: {
       rules: [
         {
@@ -28,7 +28,7 @@ module.exports = (env, argv) => {
       new HtmlWebpackPlugin({
         template: 'src/index.html'
       }),
-
+      new ESLintPlugin()
     ],
-  }
+  };
 }
