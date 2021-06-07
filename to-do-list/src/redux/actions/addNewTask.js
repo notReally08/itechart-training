@@ -3,7 +3,7 @@ import { api} from "../../db/api";
 
 export const addNewTask = createAsyncThunk(
   "taskList/addNewTask",
-  (task) => {
+  task => {
     return api(task).addTask();
   }
 );
