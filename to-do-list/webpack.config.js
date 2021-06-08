@@ -21,6 +21,25 @@ module.exports = (env, argv) => {
           test: /\.js$/,
           exclude: /node_modules/,
           use: ["babel-loader"]
+        },
+        {
+          test: /\.(png|jpe?g|gif)$/i,
+          loader: 'file-loader',
+          options: {
+            name: '[path][name].[ext]',
+          },
+        },
+        {
+          test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+          use: ["file-loader"]
+        },
+        {
+          test: /\.less$/i,
+          use: [
+            "style-loader",
+            "css-loader",
+            "less-loader",
+          ],
         }
       ]
     },
