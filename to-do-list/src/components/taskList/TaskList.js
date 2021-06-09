@@ -9,7 +9,7 @@ export const TaskList = () => {
   return (
     <section className="task-list">
       { tasks.map(task => {
-        return <Task key={ task.id } task={ task }/>;
+        return <Task key={task.id} task={task}/>;
       }) }
     </section>
   );

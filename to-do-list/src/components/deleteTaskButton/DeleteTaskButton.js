@@ -17,6 +17,6 @@ export const DeleteTaskButton = props => {
   )
 
   return (
-    <span className="delete-task-button" onClick={ useCallback(() => deleteTask(), [deleteTask]) } disabled={ disabled }></span>
+    <span className="delete-task-button" onClick={() => deleteTask()} disabled={disabled}></span>
   );
 }

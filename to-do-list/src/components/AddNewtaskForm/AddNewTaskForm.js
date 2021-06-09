@@ -28,10 +28,10 @@ export const AddNewTaskForm = () => {
     >
        {({ isSubmitting, errors, touched }) => (
          <Form className="add-task-form">
-           <Field name="taskText" validate={ validateForm } className="add-task-form__input"/>
-           {errors.taskText && touched.taskText && <span className="error-message">{ errors.taskText }</span>}
+           <Field name="taskText" validate={validateForm} className="add-task-form__input"/>
+           {errors.taskText && touched.taskText && <span className="error-message">{errors.taskText}</span>}
 
-           <button type="submit" disabled={ isSubmitting } className="add-task-form__button">Submit</button>
+           <button type="submit" disabled={isSubmitting} className="add-task-form__button">Submit</button>
          </Form>
        )}
     </Formik>

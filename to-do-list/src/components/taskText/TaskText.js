@@ -5,7 +5,7 @@ export const TaskText = props => {
 
   return (
     <p className="task__text">
-      { text }
+      {text}
     </p>
   );
 }

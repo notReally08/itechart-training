@@ -17,7 +17,7 @@ export const ChangeTaskStatusCheckbox = (props) => {
 
   return (
     <label className="checkbox-label">
-      <input name="toggle-status" id="toggle-status" className="change-task-status-checkbox" type="checkbox" onChange={ changeTaskStatus } />
+      <input name="toggle-status" id="toggle-status" className="change-task-status-checkbox" type="checkbox" onChange={changeTaskStatus} />
       <span className="checkbox-label__icon"></span>
     </label>
   );
