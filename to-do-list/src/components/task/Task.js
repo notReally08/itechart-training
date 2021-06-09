@@ -20,16 +20,16 @@ export const Task = props => {
   }
 
   return (
-    <div className={className}>
+    <div className={ className }>
       {editable ?
-        <EditTaskForm setEditable={setEditable} text={task.text} id={task.id}/> :
+        <EditTaskForm setEditable={ setEditable } text={ task.text } id={ task.id }/> :
         <div className="task__inner-container">
-          <TaskText text={task.text}/>
-          <EditTaskButton setEditable={setEditable}/>
+          <TaskText text={ task.text }/>
+          <EditTaskButton setEditable={ setEditable }/>
         </div>
       }
-      <DeleteTaskButton id={task.id}/>
-      <ChangeTaskStatusCheckbox id={task.id}/>
+      <DeleteTaskButton id={ task.id }/>
+      <ChangeTaskStatusCheckbox id={ task.id }/>
     </div>
   );
 }

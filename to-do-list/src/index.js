@@ -6,7 +6,7 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 
 render(
-  <Provider store={store}>
+  <Provider store={ store }>
     <App/>
   </Provider>,
   document.getElementById("root")

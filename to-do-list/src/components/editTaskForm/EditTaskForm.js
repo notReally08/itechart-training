@@ -15,7 +15,8 @@ export const EditTaskForm = props => {
       initialValues={{
         taskTextEdited: ""
       }}
-      onSubmit={useCallback(
+      onSubmit={
+        useCallback(
         (values, { setSubmitting }) => {
           const taskObject = {
             id,
@@ -27,19 +28,19 @@ export const EditTaskForm = props => {
         }, [dispatch, id, setEditable, value]
       )}
     >
-       {({isSubmitting, errors, touched}) => (
+       {({ isSubmitting, errors, touched }) => (
          <Form className="edit-task-form">
            <Field
             name="taskTextEdited"
-            validate={() => validateForm(value)} 
-            onChange={(e) => setValue(e.target.value)}
-            value={value} 
-            autoFocus={true}
+            validate={ () => validateForm(value) } 
+            onChange={ (e) => setValue(e.target.value) }
+            value={ value } 
+            autoFocus={ true }
             className="edit-task-form__input"
             />
            {errors.taskTextEdited && touched.taskTextEdited && <span className="error-message edit-task-form__error">{errors.taskTextEdited}</span>}
 
-           <button className="edit-task-form__button" type="submit" disabled={isSubmitting}>Save</button>
+           <button className="edit-task-form__button" type="submit" disabled={ isSubmitting }>Save</button>
          </Form>
        )}
     </Formik>
