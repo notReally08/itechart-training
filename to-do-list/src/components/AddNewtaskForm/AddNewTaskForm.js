@@ -1,8 +1,9 @@
+import "./addNewTaskForm.less";
 import React, { useCallback } from "react";
 import { useDispatch } from "react-redux";
 import { addNewTask } from "../../redux/actions/addNewTask";
 import { Formik, Field, Form } from "formik";
-import { vallidate } from "../../features/validation/validate";
+import { validateForm } from "../../features/validation/validateForm";
 
 export const AddNewTaskForm = () => {
   const dispatch = useDispatch();
@@ -10,25 +11,27 @@ export const AddNewTaskForm = () => {
   return (
     <Formik
       initialValues={{
-        taskText: "",
+        taskText: ""
       }}
-      onSubmit={useCallback(
-        ( values, { setSubmitting } ) => {
+      onSubmit={
+        useCallback(
+        (values, { setSubmitting }) => {
+          setSubmitting(true);
           const taskObject = {
             text: values.taskText,
             status: false
-          }
-          dispatch(addNewTask(taskObject)).then(setSubmitting(false));
+          };
+          dispatch(addNewTask(taskObject)).then(() => setSubmitting(false));
         },
         [dispatch]
       )}
     >
-       {({isSubmitting, errors, touched}) => (
-         <Form>
-           <Field name="taskText" validate={vallidate} />
-           {errors.taskText && touched.taskText && <div>{errors.taskText}</div>}
- 
-           <button type="submit" disabled={isSubmitting}>Submit</button>
+       {({ isSubmitting, errors, touched }) => (
+         <Form className="add-task-form">
+           <Field name="taskText" validate={validateForm} className="add-task-form__input"/>
+           {errors.taskText && touched.taskText && <span className="error-message">{errors.taskText}</span>}
+
+           <button type="submit" disabled={isSubmitting} className="add-task-form__button">Submit</button>
          </Form>
        )}
     </Formik>

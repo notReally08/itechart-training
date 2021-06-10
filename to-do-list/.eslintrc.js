@@ -14,7 +14,7 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        "max-len": [1, 120, 2, {ignoreComments: false}],
+        "max-len": [1, 150, 2, {ignoreComments: false}],
         "quotes": ["warn", "double"],
         "react/prop-types": "off"
     },

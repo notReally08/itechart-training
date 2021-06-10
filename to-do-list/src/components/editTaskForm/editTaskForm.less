@@ -1,0 +1,42 @@
+.edit-task-form {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+
+  &__input {
+    border: 1px solid rgb(215, 219, 161);
+    background-color: rgb(252, 255, 211);
+    outline: none;
+    width: 70%;
+    padding-left: 5px;
+    font-size: 18px;
+    color: #000000;
+  }
+
+  &__button {
+    display: inline-block;
+    width: 25%;
+    outline: none;
+    border: 2px solid rgb(68, 81, 105);
+    background-color: rgb(86, 101, 129);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 25%;
+    padding: 0 14px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(114, 129, 156);
+    }
+
+    &:disabled {
+      background-color: rgb(144, 143, 145);
+      cursor: progress;
+    }
+  }
+  
+  &__error {
+    bottom: -17px;
+    left: 5px;
+  }
+}

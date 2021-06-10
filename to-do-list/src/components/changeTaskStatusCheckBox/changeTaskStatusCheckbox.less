@@ -1,0 +1,23 @@
+.checkbox-label {
+  &__icon {
+    display: inline-block;
+    background-image: url("./../../assets/images/undone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .change-task-status-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    
+    &:checked {
+      & + .checkbox-label__icon {
+        background-image: url("./../../assets/images/done.png");
+      }
+    }
+  }
+}

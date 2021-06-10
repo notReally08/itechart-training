@@ -3,7 +3,7 @@ import { api } from "../../db/api";
 
 export const deleteTaskById = createAsyncThunk(
   "taskList/deleteTaskById",
-  task => {
-    return api().deleteTask(task);
+  id => {
+    return api().deleteTask(id);
   }
 );

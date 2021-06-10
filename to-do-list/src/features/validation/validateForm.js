@@ -1,0 +1,1 @@
+export const validateForm = value => !value.trim() ? "Required" : ""; 
