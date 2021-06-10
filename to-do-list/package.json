@@ -17,13 +17,19 @@
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.14.4",
+    "@babel/preset-flow": "^7.13.13",
     "@babel/preset-react": "^7.13.13",
+    "babel-jest": "^27.0.2",
     "babel-loader": "^8.2.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
     "eslint": "^7.27.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-webpack-plugin": "^2.5.4",
     "file-loader": "^6.1.1",
     "html-webpack-plugin": "^5.3.1",
+    "jest": "^27.0.4",
     "less": "^4.1.1",
     "less-loader": "^9.0.0",
     "react": "^17.0.2",
@@ -40,11 +46,20 @@
     "css-loader": "^4.3.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "formik": "^2.2.9",
+    "prop-types": "^15.7.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
     "redux": "^4.1.0",
     "style-loader": "^1.3.0",
     "uuid": "^3.4.0",
     "uuidv4": "^6.2.8"
+  },
+  "setupFiles": [
+    "./setupTests.js"
+  ],
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }

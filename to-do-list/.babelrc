@@ -1,7 +1,13 @@
 {
-  "presets": [
-      "@babel/env",
-      "@babel/react"
-  ],
-  "plugins": ["@babel/plugin-syntax-dynamic-import"]
+  "plugins": ["syntax-dynamic-import", "transform-runtime"],
+  "env": {
+    "start": {
+      "presets": [
+        "react-hmre"
+      ]
+    },
+    "test": {
+      "presets": ["react"]
+    }
+  }
 }
